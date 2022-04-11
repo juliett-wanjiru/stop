@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#80aaa7;
+    }
+#mainstopwatch{
+
+width: 400px;
+height: 50vh;
+margin:100px auto;
+padding:60px 50px 10px;
+text-align:center;
+font-size: 50px;
+background: #e0e0e0;
+box-shadow: 15px 15px 30px #644679,-15px -15px 30px #859146;
+border-radius:40px;
+background: #e0e0e0;
+box-shadow:6px -6px 8px #6b885e, -6px 6px 8px #a8934f;
+}
+#mainstopwatchspan{
+    
+color:#0776de;
+padding:10px;
+width:55px;
+margin:3px;
+display:inline-block;
+background:#e0e0e0;
+box-shadow:6px -6px 8px #9d9d9d, -6px 6px 8px #ffffff;
+}
+#mainstopwatch button{
+font-size: 22px;
+-webkit-appearance: none;
+border:none;
+background-color: #2e80b3;
+color:white;
+width:110px;
+height:55px;
+justify-content: space-between;
+transition:0.2s;
+border-radius:40px;
+box-shadow: 6px -6px 8px #9d9d9d, -6px 6px 8px #ffffff;
+}
+
+    #mainstopwatch button:hover{
+    background:#333;
+    color:#e0e0e0;
+    border-radius:35px;
+    box-shadow: 6px -6px 8px #9d9d9d, -6px 6px 8px #ffffff;
+    transition: 0.2s;
+    }
